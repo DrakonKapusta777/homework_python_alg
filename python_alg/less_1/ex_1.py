@@ -3,7 +3,7 @@
 num = int(input('Введите целое трехзначное число: '))
 a = num // 100
 b = (num % 100) // 10
-с = num % 10
-comp = a * b * с
-sum = a + b + с
-print(f'Для числа {num} произведение цифр = {comp}\nсумма цифр = {sum}')
+c = num % 10
+num_comp = a * b * c
+num_sum = a + b + c
+print(f'Для числа {num} произведение цифр = {num_comp}\nсумма цифр = {num_sum}')
